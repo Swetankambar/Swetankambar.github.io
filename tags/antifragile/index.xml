@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Perspectives on Samvet</title>
-    <link>https://swetankambar.github.io/perspectives/</link>
-    <description>Recent content in Perspectives on Samvet</description>
+    <title>antifragile on Samvet</title>
+    <link>https://swetankambar.github.io/tags/antifragile/</link>
+    <description>Recent content in antifragile on Samvet</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Sun, 23 Aug 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://swetankambar.github.io/perspectives/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://swetankambar.github.io/tags/antifragile/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -18,15 +18,6 @@
       <guid>https://swetankambar.github.io/perspectives/fat_tony_vs_sorcates/</guid>
       <description>Conversation between Socrates and Fat Tony Antifragile is a great idea and one without which life can/must/should not be imagined, and nnt has made the book so real and original that it almost feels like talking to a person. I have had my conflicts with the book at places. This is an alternate interpretation of a dialogue between Fat Tony and Socrates in Chapter 17.
 Fat Tony: Get lost socrates, You are asking me to define what is the difference between pious and non pious, do I really need to be able to tell you what it is to be able to conduct a pious action?</description>
-    </item>
-    
-    <item>
-      <title>Aphorisms</title>
-      <link>https://swetankambar.github.io/perspectives/aphorisms/</link>
-      <pubDate>Sun, 16 Aug 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://swetankambar.github.io/perspectives/aphorisms/</guid>
-      <description>Management  Time Management: To make promise to people and to ensure that you deliver each one of them. There is no such learnable skill as time-management, it is an expression of integrity. Anger Management: Have a control loop running in the background that checks evaluates the cause of anger. In many cases, it is the fear that something might be true and unpleasant at the same time. At many other times, it is our own expectations that make us angry.</description>
     </item>
     
   </channel>
