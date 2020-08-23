@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>RF Experiments on Samvet</title>
+    <link>https://swetankambar.github.io/rf-experiments/</link>
+    <description>Recent content in RF Experiments on Samvet</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 12 Apr 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://swetankambar.github.io/rf-experiments/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Calculation of Noise Figure of a Radio receiver</title>
+      <link>https://swetankambar.github.io/rf-experiments/noise_figure_calculation/</link>
+      <pubDate>Fri, 12 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://swetankambar.github.io/rf-experiments/noise_figure_calculation/</guid>
+      <description>Noise Figure Calculation I got a USRP device at hand and the post uses it as the radio whose noise figure has to be estimated. The method described below is generic and is valid for any RF receiver.
+\( Noise\, Figure= 10*log_{10}(Noise \,Factor) \\[3mm] Noise\, Factor=\frac{SNR_{IN}}{SNR_{OUT}}\\[3mm] \) Following approach is taken to calculate the NF experimentally:
+  Provide input to the USRP RIO using a known signal generator with a low amplitude ~-70dBm.</description>
+    </item>
+    
+  </channel>
+</rss>

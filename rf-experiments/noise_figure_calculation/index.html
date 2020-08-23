@@ -2,19 +2,23 @@
 <html lang='en' dir='auto'><head>
   <meta charset='utf-8'>
 <meta name='viewport' content='width=device-width, initial-scale=1'>
-<meta name='description' content=''>
+<meta name='description' content='Noise Figure Calculation I got a USRP device at hand and the post uses it as the radio whose noise figure has to be estimated. The method described below is generic and is valid for any RF receiver.
+\( Noise\, Figure= 10*log_{10}(Noise \,Factor) \\[3mm] Noise\, Factor=\frac{SNR_{IN}}{SNR_{OUT}}\\[3mm] \) Following approach is taken to calculate the NF experimentally:
+  Provide input to the USRP RIO using a known signal generator with a low amplitude ~-70dBm.'>
 <meta name='theme-color' content='#ffcd00'>
 
-<meta property='og:title' content='Living in the past • Samvet'>
-<meta property='og:description' content=''>
-<meta property='og:url' content='https://swetankambar.github.io/junkomics/living_in_past/'>
+<meta property='og:title' content='Calculation of Noise Figure of a Radio receiver • Samvet'>
+<meta property='og:description' content='Noise Figure Calculation I got a USRP device at hand and the post uses it as the radio whose noise figure has to be estimated. The method described below is generic and is valid for any RF receiver.
+\( Noise\, Figure= 10*log_{10}(Noise \,Factor) \\[3mm] Noise\, Factor=\frac{SNR_{IN}}{SNR_{OUT}}\\[3mm] \) Following approach is taken to calculate the NF experimentally:
+  Provide input to the USRP RIO using a known signal generator with a low amplitude ~-70dBm.'>
+<meta property='og:url' content='https://swetankambar.github.io/rf-experiments/noise_figure_calculation/'>
 <meta property='og:site_name' content='Samvet'>
-<meta property='og:type' content='article'><meta property='article:section' content='junkomics'><meta property='article:tag' content='comic'><meta property='article:published_time' content='2020-08-19T00:00:00Z'/><meta property='article:modified_time' content='2020-08-19T00:00:00Z'/><meta name='twitter:card' content='summary'>
+<meta property='og:type' content='article'><meta property='article:section' content='RF Experiments'><meta property='article:tag' content='RF'><meta property='article:published_time' content='2019-04-12T00:00:00Z'/><meta property='article:modified_time' content='2019-04-12T00:00:00Z'/><meta name='twitter:card' content='summary'>
 
 <meta name="generator" content="Hugo 0.74.3" />
 
-  <title>Living in the past • Samvet</title>
-  <link rel='canonical' href='https://swetankambar.github.io/junkomics/living_in_past/'>
+  <title>Calculation of Noise Figure of a Radio receiver • Samvet</title>
+  <link rel='canonical' href='https://swetankambar.github.io/rf-experiments/noise_figure_calculation/'>
   
   
   <link rel='icon' href='/samvet_logo.png'>
@@ -25,7 +29,7 @@
   
 
 </head>
-<body class='page type-junkomics has-sidebar'>
+<body class='page type-RF Experiments has-sidebar'>
 
   <div class='site'><div id='sidebar' class='sidebar'>
   <a class='screen-reader-text' href='#main-menu'>Skip to Main Menu</a>
@@ -122,7 +126,7 @@
     <style>.widget-breadcrumbs li:after{content:'\2f '}</style>
   <section class='widget widget-breadcrumbs sep-after'>
     <nav id='breadcrumbs'>
-      <ol><li><a href='/'>Samvet</a></li><li><a href='/junkomics/'>Junkomics</a></li><li><span>Living in the past</span></li></ol>
+      <ol><li><a href='/'>Samvet</a></li><li><a href='/rf-experiments/'>RF Experiments</a></li><li><span>Calculation of Noise Figure of a Radio receiver</span></li></ol>
     </nav>
   </section></div>
       </div>
@@ -141,7 +145,7 @@
   <header class='header entry-header'>
   <div class='container sep-after'>
     <div class='header-info'>
-      <h1 class='title'>Living in the past</h1>
+      <h1 class='title'>Calculation of Noise Figure of a Radio receiver</h1>
       
 
     </div>
@@ -156,7 +160,7 @@
 
 </svg>
 <span class='screen-reader-text'>Posted on </span>
-  <time class='entry-date' datetime='2020-08-19T00:00:00Z'>2020, Aug 19</time>
+  <time class='entry-date' datetime='2019-04-12T00:00:00Z'>2019, Apr 12</time>
 </span>
 
   
@@ -168,7 +172,7 @@
   <polyline points="12 6 12 12 15 15"/>
 
 </svg>
-0 mins read
+2 mins read
 </span>
 
 
@@ -182,7 +186,93 @@
   
 
   <div class='container entry-content'>
-  <p><img src="/junkomics/image/living_in_past.png" alt="comic1" title="You read this comic in the past and now you are reading the caption in the past..."></p>
+  <h1 id="noise-figure-calculation">Noise Figure Calculation</h1>
+<p>I got a USRP device at hand and the post uses it as the radio whose noise figure has to be estimated. The method described below is generic and is valid for any RF receiver.</p>
+\(
+
+Noise\, Figure= 10*log_{10}(Noise \,Factor) \\[3mm]
+
+Noise\, Factor=\frac{SNR_{IN}}{SNR_{OUT}}\\[3mm]
+
+\)
+
+<p>Following approach is taken to calculate the NF experimentally:</p>
+<ul>
+<li>
+<p>Provide input to the USRP RIO using a known signal generator with a low amplitude ~-70dBm. This signal should be measured by a VSA or SA to check the signal input to USRP RIO.</p>
+</li>
+<li>
+<p>Set the gain setting on USRP Recieve channel to maximum, \(
+{G= 95\,dB} 
+\)
+</p>
+</li>
+<li>
+<p>Set the BW of capture to be \(
+{10 \,MHz}
+\)
+</p>
+</li>
+<li>
+<p>Set the number of points to be captured to be 1024
+*Acquire signal from a USRP channel and plot the power spectrum to observe the signal level</p>
+</li>
+<li>
+<p>Ensure that the USRP is not running in saturation with the given gain and the input signal. This can be verified by changing the input signal by 10dB and observing an approx 10dB change in the spectrum captured. Do ensure that the signal is above the noise floor as seen in the power spectrum</p>
+</li>
+<li>
+<p>Remove any input signal from USRP input and put a \(
+50 {\Omega}
+\)
+ termination at the input. Now acquire the spectrum using the same settings as before to observe the noise floor.</p>
+</li>
+<li>
+<p>Apply the following formula for calculation</p>
+</li>
+</ul>
+<p>\(
+  Noise Figure=10*log_{10}(\frac{N_{out}}{N_{in}*Gain})\thickspace \dots(1)\\[5mm]
+\)
+
+\(
+         {N_{out}} 
+\)
+ and  \(
+{N_{in}} 
+\)
+are both calculated in per Hertz.</p>
+\(
+  10log_{10}(N_{in})= 174dBm/Hz\dots(2)\\[5mm]
+\)
+
+\[
+  10*log_{10}(N_{out}\, per \,Hertz) =Noise \,Floor(dBm)- 10*log_{10}(Effective \,Noise \,Bandwidth)\\[5mm]
+\]
+
+\[
+  Effective\,Noise\,Bandwidth = \frac{Sampling\,Bandwidth}{FFT\,points}*Window\,Scaling\,Factor
+\]
+
+<p><a href="https://www.ap.com/technical-library/fft-scaling-for-noise/">FFT Scaling For Noise</a>  contains the details of the Scaling Factor that should be used for different window types. Default window used in &ldquo;FFT Power Spectrum and PSD VI&rdquo; used in &ldquo;Rx Streaming(Four Channel)&rdquo; is hanning, for with Scaling factor of 1.5. Thus</p>
+\(
+  Effective\,Noise\,Bandwidth=\frac{10\,MHz}{1024}*1.5=14648.43\,Hz\\[3mm]
+\)
+
+\(
+  10*log_{10}(Effective,Noise,Bandwidth)\approx 41.65\dots(3)\\[5mm]
+\)
+
+<p>\[
+  10*log(Gain)= Power \, Observed \, in \, Spectrum - Input \, Power \, Level\dots(4)\\[5mm]
+\]
+ Say this as K.<br>
+Find average noise floor from the power spectrum, say this as N</p>
+<p>Plugging (2),(3),(4) in 1 we get</p>
+\(
+  NF= N-41.65+174-K
+\)
+
+<p>This is an approximate calculation as the noise floor is generally not constant throughout, a bunch of RMS averaging should be done to make the noise power measurement. This will give a more accurate N used above and hence a more accurate NF.</p>
 
 </div>
 
@@ -195,28 +285,13 @@
   <line x1="7" y1="7" x2="7" y2="7"/>
 
 </svg>
-<span class='screen-reader-text'>Tags: </span><a class='tag' href='/tags/comic/'>comic</a></div>
+<span class='screen-reader-text'>Tags: </span><a class='tag' href='/tags/rf/'>RF</a></div>
 
   </div>
 </footer>
 
 
 </article>
-
-<nav class='entry-nav'>
-  <div class='container'><div class='next-entry sep-before'>
-      <a href='/junkomics/indetermiate_relationships/'>
-        <span class='screen-reader-text'>Next post: </span>Indeterminate Relationships<span aria-hidden='true'>Next <svg class='icon' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
-    
-    
-  <line x1="4" y1="12" x2="20" y2="12"/>
-  <polyline points="14 6 20 12 14 18"/>
-
-</svg>
-</span>
-      </a>
-    </div></div>
-</nav>
 
 
 
@@ -267,7 +342,13 @@
     </div>
   </div><script>window.__assets_js_src="/assets/js/"</script>
 
-<script src='/assets/js/main.c3bcf2df.js'></script><script src='/js/custom.js'></script>
+<script src='/assets/js/main.c3bcf2df.js'></script><script src='/js/custom.js'></script><link rel='stylesheet' href='//unpkg.com/katex/dist/katex.min.css'>
+<script src='//unpkg.com/katex/dist/katex.min.js'></script>
+<script src='//unpkg.com/katex/dist/contrib/auto-render.min.js'></script>
+
+<script type='text/javascript'>
+  renderMathInElement(document.querySelector('.entry-content'),{});
+</script>
 
 </body>
 

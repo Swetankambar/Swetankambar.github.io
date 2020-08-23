@@ -47,5 +47,16 @@ Fat Tony: Get lost socrates, You are asking me to define what is the difference 
       <description>Management  Time Management: To make promise to people and to ensure that you deliver each one of them. There is no such learnable skill as time-management, it is an expression of integrity. Anger Management: Have a control loop running in the background that checks evaluates the cause of anger. In many cases, it is the fear that something might be true and unpleasant at the same time. At many other times, it is our own expectations that make us angry.</description>
     </item>
     
+    <item>
+      <title>Calculation of Noise Figure of a Radio receiver</title>
+      <link>https://swetankambar.github.io/rf-experiments/noise_figure_calculation/</link>
+      <pubDate>Fri, 12 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://swetankambar.github.io/rf-experiments/noise_figure_calculation/</guid>
+      <description>Noise Figure Calculation I got a USRP device at hand and the post uses it as the radio whose noise figure has to be estimated. The method described below is generic and is valid for any RF receiver.
+\( Noise\, Figure= 10*log_{10}(Noise \,Factor) \\[3mm] Noise\, Factor=\frac{SNR_{IN}}{SNR_{OUT}}\\[3mm] \) Following approach is taken to calculate the NF experimentally:
+  Provide input to the USRP RIO using a known signal generator with a low amplitude ~-70dBm.</description>
+    </item>
+    
   </channel>
 </rss>
