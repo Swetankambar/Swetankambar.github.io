@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Junkomics on Samvet</title>
-    <link>http://www.example.com/junkomics/</link>
+    <link>https://swetankambar.github.io/junkomics/</link>
     <description>Recent content in Junkomics on Samvet</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Sun, 23 Aug 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://www.example.com/junkomics/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://swetankambar.github.io/junkomics/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Indeterminate Relationships</title>
-      <link>http://www.example.com/junkomics/indetermiate_relationships/</link>
+      <link>https://swetankambar.github.io/junkomics/indetermiate_relationships/</link>
       <pubDate>Sun, 23 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://www.example.com/junkomics/indetermiate_relationships/</guid>
+      <guid>https://swetankambar.github.io/junkomics/indetermiate_relationships/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Living in the past</title>
-      <link>http://www.example.com/junkomics/living_in_past/</link>
+      <link>https://swetankambar.github.io/junkomics/living_in_past/</link>
       <pubDate>Wed, 19 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://www.example.com/junkomics/living_in_past/</guid>
+      <guid>https://swetankambar.github.io/junkomics/living_in_past/</guid>
       <description></description>
     </item>
     

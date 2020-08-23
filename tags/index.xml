@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Samvet</title>
-    <link>http://www.example.com/tags/</link>
+    <link>https://swetankambar.github.io/tags/</link>
     <description>Recent content in Tags on Samvet</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Sun, 23 Aug 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://www.example.com/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://swetankambar.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>comic</title>
-      <link>http://www.example.com/tags/comic/</link>
+      <link>https://swetankambar.github.io/tags/comic/</link>
       <pubDate>Sun, 23 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://www.example.com/tags/comic/</guid>
+      <guid>https://swetankambar.github.io/tags/comic/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Quote</title>
-      <link>http://www.example.com/tags/quote/</link>
+      <link>https://swetankambar.github.io/tags/quote/</link>
       <pubDate>Sun, 16 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://www.example.com/tags/quote/</guid>
+      <guid>https://swetankambar.github.io/tags/quote/</guid>
       <description></description>
     </item>
     

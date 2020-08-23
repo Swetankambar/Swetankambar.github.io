@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Samvet</title>
-    <link>http://www.example.com/</link>
+    <link>https://swetankambar.github.io/</link>
     <description>Recent content on Samvet</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Sun, 23 Aug 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://www.example.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://swetankambar.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Indeterminate Relationships</title>
-      <link>http://www.example.com/junkomics/indetermiate_relationships/</link>
+      <link>https://swetankambar.github.io/junkomics/indetermiate_relationships/</link>
       <pubDate>Sun, 23 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://www.example.com/junkomics/indetermiate_relationships/</guid>
+      <guid>https://swetankambar.github.io/junkomics/indetermiate_relationships/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Living in the past</title>
-      <link>http://www.example.com/junkomics/living_in_past/</link>
+      <link>https://swetankambar.github.io/junkomics/living_in_past/</link>
       <pubDate>Wed, 19 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://www.example.com/junkomics/living_in_past/</guid>
+      <guid>https://swetankambar.github.io/junkomics/living_in_past/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Aphorisms</title>
-      <link>http://www.example.com/perspectives/aphorisms/</link>
+      <link>https://swetankambar.github.io/perspectives/aphorisms/</link>
       <pubDate>Sun, 16 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://www.example.com/perspectives/aphorisms/</guid>
+      <guid>https://swetankambar.github.io/perspectives/aphorisms/</guid>
       <description>Management  Time Management: To make promise to people and to ensure that you deliver each one of them. There is no such learnable skill as time-management, it is an expression of integrity. Anger Management: Have a control loop running in the background that checks evaluates the cause of anger. In many cases, it is the fear that something might be true and unpleasant at the same time. At many other times, it is our own expectations that make us angry.</description>
     </item>
     

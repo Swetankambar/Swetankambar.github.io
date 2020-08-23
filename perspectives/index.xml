@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Perspectives on Samvet</title>
-    <link>http://www.example.com/perspectives/</link>
+    <link>https://swetankambar.github.io/perspectives/</link>
     <description>Recent content in Perspectives on Samvet</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Sun, 16 Aug 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://www.example.com/perspectives/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://swetankambar.github.io/perspectives/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Aphorisms</title>
-      <link>http://www.example.com/perspectives/aphorisms/</link>
+      <link>https://swetankambar.github.io/perspectives/aphorisms/</link>
       <pubDate>Sun, 16 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://www.example.com/perspectives/aphorisms/</guid>
+      <guid>https://swetankambar.github.io/perspectives/aphorisms/</guid>
       <description>Management  Time Management: To make promise to people and to ensure that you deliver each one of them. There is no such learnable skill as time-management, it is an expression of integrity. Anger Management: Have a control loop running in the background that checks evaluates the cause of anger. In many cases, it is the fear that something might be true and unpleasant at the same time. At many other times, it is our own expectations that make us angry.</description>
     </item>
     
