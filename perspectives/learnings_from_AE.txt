@@ -1,0 +1,16 @@
+---
+date: 2020-08-25
+tags: ["antifragile"]
+title: "Learnings from AE Experience!"
+draft: true
+---
+
+I started my career as an Application Engineer at National Instruments. And being in an AE role has it's own quirks. To begin with, there is no definition of what an AE should do apart from the fact that it has to do with "_Customer Success_" and "_Business Growth_". While this may not look charming to some, there are perks and learnings unique to the role. 
+
+1. You travel a lot. You earn mileage in any airmile program you want, you see places you always wanted to see. So much  so that it starts to get boring.
+2. You see industry. While most of your friends will be doing a job they accepted as their career just because a company gave them an offer letter during college placements or going into a cycle of MBA/MS, you can choose. Now to make a choice it is pertinent that you need to know what are the options. An AE role gives you that opportunity. And then you can make a call!
+3.  You learn how to learn quickly. Doesn't matter how unfamiliar and uncharted territory it is for you, you have to find your way to solve the issue at hand.
+4. You learn how to crack interviews.
+
+
+ 
