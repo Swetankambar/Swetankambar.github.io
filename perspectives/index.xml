@@ -1,42 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Perspectives on Samvet</title>
-    <link>https://swetankambar.github.io/perspectives/</link>
-    <description>Recent content in Perspectives on Samvet</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 13 Sep 2020 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://swetankambar.github.io/perspectives/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Time as a filter</title>
-      <link>https://swetankambar.github.io/perspectives/time_filter/</link>
-      <pubDate>Sun, 13 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://swetankambar.github.io/perspectives/time_filter/</guid>
-      <description>Barry Schwartz wrote The paradox of choice in 2004, and its relevance is indubitable today in 2020. The argument that probably most of us would be happy if there are a lesser number of choices has increased its relevance over time. The current age is of an apparent abundance, and like the real devil, it doesn&amp;rsquo;t seem to be a problem. If anything, it feels like the happiest time of our lives because we need not think twice to get what we want.</description>
-    </item>
-    
-    <item>
-      <title>Fat Tony vs Socrates!</title>
-      <link>https://swetankambar.github.io/perspectives/fat_tony_vs_sorcates/</link>
-      <pubDate>Sun, 23 Aug 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://swetankambar.github.io/perspectives/fat_tony_vs_sorcates/</guid>
-      <description>Conversation between Socrates and Fat Tony Antifragile is a great idea and one without which life can/must/should not be imagined, and nnt has made the book so real and original that it almost feels like talking to a person. I have had my conflicts with the book at places. This is an alternate interpretation of a dialogue between Fat Tony and Socrates in Chapter 17.
-Fat Tony: Get lost socrates, You are asking me to define what is the difference between pious and non pious, do I really need to be able to tell you what it is to be able to conduct a pious action?</description>
-    </item>
-    
-    <item>
-      <title>Aphorisms</title>
-      <link>https://swetankambar.github.io/perspectives/aphorisms/</link>
-      <pubDate>Sun, 16 Aug 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://swetankambar.github.io/perspectives/aphorisms/</guid>
-      <description>Management  Time Management: To make promise to people and to ensure that you deliver each one of them. There is no such learnable skill as time-management, it is an expression of integrity. Anger Management: Have a control loop running in the background that checks evaluates the cause of anger. In many cases, it is the fear that something might be true and unpleasant at the same time. At many other times, it is our own expectations that make us angry.</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Perspectives on Samvet</title><link>https://swetankambar.github.io/perspectives/</link><description>Recent content in Perspectives on Samvet</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 20 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://swetankambar.github.io/perspectives/index.xml" rel="self" type="application/rss+xml"/><item><title>Time Filter</title><link>https://swetankambar.github.io/perspectives/time_filter/</link><pubDate>Thu, 20 Aug 2020 00:00:00 +0000</pubDate><guid>https://swetankambar.github.io/perspectives/time_filter/</guid><description>&lt;p>Barry Schwartz wrote &lt;a href="https://en.wikipedia.org/wiki/The_Paradox_of_Choice">The paradox of choice&lt;/a> in 2004, and its relevance is indubitable today in 2020. The argument that probably most of us would be happy if there are a lesser number of choices has increased its relevance over time.
+The current age is of an apparent abundance, and like the real devil, it doesn&amp;rsquo;t seem to be a problem. If anything, it feels like the happiest time of our lives because we need not think twice to get what we want.
+To all those who don&amp;rsquo;t think this is a real issue, this article is not for you. It is not an argument to prove the problem of abundance or the paradox of having a large number of choices. For others, one of my method to diminish the damage to my attention span, focus and happiness is by using time as a filter. This implies using a time threshold to decide whether to consume something or not. This is like putting a low pass filter that will let only slow varying things to pass, and attenuate anything that is changing suddenly. This approach works well to decide things like :&lt;/p></description></item><item><title>Fat Tony vs Socrates</title><link>https://swetankambar.github.io/perspectives/fat_tony_vs_socrates/</link><pubDate>Tue, 18 Aug 2020 00:00:00 +0000</pubDate><guid>https://swetankambar.github.io/perspectives/fat_tony_vs_socrates/</guid><description>&lt;h1 id="conversation-between-socrates-and-fat-tony">Conversation between &lt;strong>Socrates&lt;/strong> and &lt;strong>Fat Tony&lt;/strong>&lt;/h1>
+&lt;p>Antifragile is a great idea and one without which life can/must/should not be imagined, and nnt has made the book so real and original that it almost feels like talking to a person. I have had my conflicts with the book at places. This is an alternate interpretation of a dialogue between &lt;strong>Fat Tony&lt;/strong> and &lt;strong>Socrates&lt;/strong> in Chapter 17.&lt;/p>
+&lt;p>&lt;strong>Fat Tony&lt;/strong>: Get lost socrates, You are asking me to define what is the difference between pious and non pious, do I really need to be able to tell you what it is to be able to conduct a pious action?&lt;/p></description></item><item><title>Aphorisms</title><link>https://swetankambar.github.io/perspectives/aphorisms/</link><pubDate>Sun, 16 Aug 2020 00:00:00 +0000</pubDate><guid>https://swetankambar.github.io/perspectives/aphorisms/</guid><description>&lt;h2 id="management">Management&lt;/h2>
+&lt;ul>
+&lt;li>&lt;em>Time Management&lt;/em>: To make promise to people and to ensure that you deliver each one of them. There is no such learnable skill as time-management, it is an expression of integrity.&lt;/li>
+&lt;li>&lt;em>Anger Management&lt;/em>: Have a control loop running in the background that checks evaluates the cause of anger. In many cases, it is the fear that something might be true and unpleasant at the same time. At many other times, it is our own expectations that make us angry.&lt;/li>
+&lt;/ul></description></item></channel></rss>
