@@ -1,33 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>antifragile on Samvet</title>
-    <link>https://swetankambar.github.io/tags/antifragile/</link>
-    <description>Recent content in antifragile on Samvet</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 13 Sep 2020 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://swetankambar.github.io/tags/antifragile/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Time as a filter</title>
-      <link>https://swetankambar.github.io/perspectives/time_filter/</link>
-      <pubDate>Sun, 13 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://swetankambar.github.io/perspectives/time_filter/</guid>
-      <description>Barry Schwartz wrote The paradox of choice in 2004, and its relevance is indubitable today in 2020. The argument that probably most of us would be happy if there are a lesser number of choices has increased its relevance over time. The current age is of an apparent abundance, and like the real devil, it doesn&amp;rsquo;t seem to be a problem. If anything, it feels like the happiest time of our lives because we need not think twice to get what we want.</description>
-    </item>
-    
-    <item>
-      <title>Fat Tony vs Socrates!</title>
-      <link>https://swetankambar.github.io/perspectives/fat_tony_vs_sorcates/</link>
-      <pubDate>Sun, 23 Aug 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://swetankambar.github.io/perspectives/fat_tony_vs_sorcates/</guid>
-      <description>Conversation between Socrates and Fat Tony Antifragile is a great idea and one without which life can/must/should not be imagined, and nnt has made the book so real and original that it almost feels like talking to a person. I have had my conflicts with the book at places. This is an alternate interpretation of a dialogue between Fat Tony and Socrates in Chapter 17.
-Fat Tony: Get lost socrates, You are asking me to define what is the difference between pious and non pious, do I really need to be able to tell you what it is to be able to conduct a pious action?</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Antifragile on Samvet</title><link>https://swetankambar.github.io/tags/antifragile/</link><description>Recent content in Antifragile on Samvet</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 18 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://swetankambar.github.io/tags/antifragile/index.xml" rel="self" type="application/rss+xml"/><item><title>Fat Tony vs Socrates</title><link>https://swetankambar.github.io/perspectives/fat_tony_vs_socrates/</link><pubDate>Tue, 18 Aug 2020 00:00:00 +0000</pubDate><guid>https://swetankambar.github.io/perspectives/fat_tony_vs_socrates/</guid><description>&lt;h1 id="conversation-between-socrates-and-fat-tony">Conversation between &lt;strong>Socrates&lt;/strong> and &lt;strong>Fat Tony&lt;/strong>&lt;/h1>
+&lt;p>Antifragile is a great idea and one without which life can/must/should not be imagined, and nnt has made the book so real and original that it almost feels like talking to a person. I have had my conflicts with the book at places. This is an alternate interpretation of a dialogue between &lt;strong>Fat Tony&lt;/strong> and &lt;strong>Socrates&lt;/strong> in Chapter 17.&lt;/p>
+&lt;p>&lt;strong>Fat Tony&lt;/strong>: Get lost socrates, You are asking me to define what is the difference between pious and non pious, do I really need to be able to tell you what it is to be able to conduct a pious action?&lt;/p></description></item></channel></rss>

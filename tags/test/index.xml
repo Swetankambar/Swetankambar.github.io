@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Test on Samvet</title><link>https://swetankambar.github.io/tags/test/</link><description>Recent content in Test on Samvet</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 26 Aug 2025 14:36:27 +0530</lastBuildDate><atom:link href="https://swetankambar.github.io/tags/test/index.xml" rel="self" type="application/rss+xml"/><item><title>My First Hugo Post</title><link>https://swetankambar.github.io/trials_errors/my-first-hugo-post/</link><pubDate>Tue, 26 Aug 2025 14:36:27 +0530</pubDate><guid>https://swetankambar.github.io/trials_errors/my-first-hugo-post/</guid><description>&lt;h1 id="my-first-hugo-post">My First Hugo Post&lt;/h1>
+&lt;p>This is my first blog post created using Hugo! 🎉&lt;/p>
+&lt;h2 id="how-easy-is-this">How Easy Is This?&lt;/h2>
+&lt;p>Creating blog posts with Hugo is incredibly simple:&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>Create content&lt;/strong>: &lt;code>hugo new content trials_errors/my-post.md&lt;/code>&lt;/li>
+&lt;li>&lt;strong>Edit the markdown&lt;/strong>: Add your content in simple markdown format&lt;/li>
+&lt;li>&lt;strong>Build the site&lt;/strong>: &lt;code>hugo&lt;/code> command generates the static files&lt;/li>
+&lt;li>&lt;strong>Deploy&lt;/strong>: Copy the generated files to your GitHub Pages repository&lt;/li>
+&lt;/ol>
+&lt;h2 id="benefits-of-using-hugo">Benefits of Using Hugo&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Fast&lt;/strong>: Hugo builds sites incredibly quickly&lt;/li>
+&lt;li>&lt;strong>Simple&lt;/strong>: Write in Markdown, no complex setup needed&lt;/li>
+&lt;li>&lt;strong>Flexible&lt;/strong>: Easy to customize and extend&lt;/li>
+&lt;li>&lt;strong>Version Control&lt;/strong>: Your content is in git, easy to track changes&lt;/li>
+&lt;/ul>
+&lt;p>This setup makes it much easier to create new blog posts compared to manually creating HTML files!&lt;/p></description></item></channel></rss>

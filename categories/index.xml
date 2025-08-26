@@ -1,13 +1,1 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Categories on Samvet</title>
-    <link>https://swetankambar.github.io/categories/</link>
-    <description>Recent content in Categories on Samvet</description>
-    <generator>Hugo -- gohugo.io</generator>
-    
-	<atom:link href="https://swetankambar.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Categories on Samvet</title><link>https://swetankambar.github.io/categories/</link><description>Recent content in Categories on Samvet</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 26 Aug 2025 15:05:42 +0530</lastBuildDate><atom:link href="https://swetankambar.github.io/categories/index.xml" rel="self" type="application/rss+xml"/><item><title>Running</title><link>https://swetankambar.github.io/categories/running/</link><pubDate>Tue, 26 Aug 2025 15:05:42 +0530</pubDate><guid>https://swetankambar.github.io/categories/running/</guid><description/></item><item><title>Junkomics</title><link>https://swetankambar.github.io/categories/junkomics/</link><pubDate>Sun, 13 Sep 2020 00:00:00 +0000</pubDate><guid>https://swetankambar.github.io/categories/junkomics/</guid><description/></item><item><title>Perspectives</title><link>https://swetankambar.github.io/categories/perspectives/</link><pubDate>Thu, 20 Aug 2020 00:00:00 +0000</pubDate><guid>https://swetankambar.github.io/categories/perspectives/</guid><description/></item><item><title>Rf-Experiments</title><link>https://swetankambar.github.io/categories/rf-experiments/</link><pubDate>Sat, 15 Aug 2020 00:00:00 +0000</pubDate><guid>https://swetankambar.github.io/categories/rf-experiments/</guid><description/></item></channel></rss>

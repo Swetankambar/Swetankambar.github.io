@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Rf-Experiments on Samvet</title><link>https://swetankambar.github.io/categories/rf-experiments/</link><description>Recent content in Rf-Experiments on Samvet</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sat, 15 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://swetankambar.github.io/categories/rf-experiments/index.xml" rel="self" type="application/rss+xml"/><item><title>Noise Figure Calculation</title><link>https://swetankambar.github.io/rf-experiments/noise_figure_calculation/</link><pubDate>Sat, 15 Aug 2020 00:00:00 +0000</pubDate><guid>https://swetankambar.github.io/rf-experiments/noise_figure_calculation/</guid><description>&lt;h1 id="noise-figure-calculation">Noise Figure Calculation&lt;/h1>
+&lt;p>I got a USRP device at hand and the post uses it as the radio whose noise figure has to be estimated. The method described below is generic and is valid for any RF receiver.&lt;/p>
+&lt;p>$$
+Noise, Figure= 10*log_{10}(Noise ,Factor) \[3mm]&lt;/p>
+&lt;p>Noise, Factor=\frac{SNR_{IN}}{SNR_{OUT}}\[3mm]
+$$&lt;/p>
+&lt;p>Following approach is taken to calculate the NF experimentally:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>Provide input to the USRP RIO using a known signal generator with a low amplitude ~-70dBm. This signal should be measured by a VSA or SA to check the signal input to USRP RIO.&lt;/p></description></item></channel></rss>
