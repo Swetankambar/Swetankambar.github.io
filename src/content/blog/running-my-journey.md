@@ -2,7 +2,7 @@
 title: 'Running Diary'
 description: 'My journey as a runner and the long road ahead'
 pubDate: 2026-01-06
-tags: ['running it']  # Use: junkomics, perspectives, rf-experiments, or running
+tags: ['running']
 draft: false  # Set to true to hide the post
 ---
 
